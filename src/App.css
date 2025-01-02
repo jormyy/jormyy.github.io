@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Section Styling */
+section {
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent black for contrast */
+  padding: 3rem;
+  border-radius: 10px;
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* Card/Block Styling */
+.certificate-block, .experience-block, .project-block {
+  background-color: rgba(0, 0, 0, 0.9); /* Darker transparent background for cards */
+  border: 2px solid #00ff00; /* Neon green border */
+  padding: 2rem;
+  border-radius: 10px;
+  color: #00ff00; /* Neon green text */
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Card Hover Effect */
+.certificate-block:hover, .experience-block:hover, .project-block:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 0 15px #00ff00;
+  background-color: rgba(0, 0, 0, 1); /* Fully opaque black on hover */
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,24 @@
+.home-section {
+    background-color: transparent;
+    color: #00ff00;
+    text-align: center;
+    padding: 0;
+    font-size: 2rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 8px #00ff00;
+  }
+  
+  .home-section p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
