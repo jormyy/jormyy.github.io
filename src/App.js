@@ -10,20 +10,22 @@ import ContactMe from './components/contactme';
 import Footer from './components/footer';
 import './assets/styles/global.css';
 
-const App = () => (
-  <div>
-    <Header />
-    <main>
-      <Home />
-      <AboutMe />
-      <Experience />
-      <Projects />
-      <Certificates />
-      <Skills />
-      <ContactMe />
-    </main>
-    <Footer />
-  </div>
-);
+const App = () => {
+  return (
+    <div>
+      <Header />
+      <main>
+        <Home />
+        <AboutMe />
+        <Experience />
+        <Projects />
+        <Certificates />
+        <Skills />
+        <ContactMe />
+      </main>
+      <Footer />
+    </div>
+  );
+};
 
 export default App;

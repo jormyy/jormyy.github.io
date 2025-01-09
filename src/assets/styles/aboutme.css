@@ -1,39 +1,21 @@
-.about-me-section {
-    width: 100%;
-    box-sizing: border-box;
-    overflow-x: hidden; /* prevents accidental horizontal scrolling */
-    height: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--mint-green);
-    padding: 0 2rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .about-me-content {
-    text-align: center;
-    background-color: var(--white);
-    border-radius: 15px;
-    padding: 3rem;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-    max-width: 900px;
-    width: 100%;
-  }
-  
-  .about-me-heading {
-    font-size: 3rem;
-    font-weight: bold;
-    color: var(--dark-green);
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  
-  .about-me-text {
-    font-size: 1.5rem;
-    color: var(--black);
-    line-height: 1.8;
-    margin: 0;
-  }
-  
+.about-section {
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  line-height: 1.8;
+  margin-top: 0.5rem;
+}

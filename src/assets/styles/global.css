@@ -25,7 +25,6 @@ body::before {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #00ff00;
   text-shadow: 0 0 8px #00ff00; /* glowing effect */
 }
 
@@ -46,10 +45,9 @@ a:hover {
 }
 
 section {
-  background: rgba(0, 0, 0, 0.8);
+  background: transparent;
   padding: 3rem;
   border-radius: 10px;
   margin: 2rem auto;
   width: 90%;
-  max-width: 1200px;
 }

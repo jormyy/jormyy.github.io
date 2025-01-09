@@ -1,69 +1,79 @@
 .experience-section {
-    width: 100%;
-    box-sizing: border-box;
-    overflow-x: hidden; /* prevents accidental horizontal scrolling */
-    padding: 4rem 2rem;
-    background-color: var(--mint-green); /* Mint green background for section */
-    text-align: center;
-  }
+  box-sizing: border-box;
+  text-align: left;
+}
   
-  .experience-heading {
-    font-size: 3rem;
-    font-weight: bold;
-    color: var(--dark-green);
-    margin-bottom: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  
-  /* Container for the two blocks */
+.experience-heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.experience-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 0;
+}
+
+.experience-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--dark-green);
+  margin-bottom: 1rem;
+}
+
+.experience-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Hover Effect */
+.experience-block:hover {
+  transform: translateY(-10px) scale(1.05); /* Slight upward movement and scaling */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Increase the shadow to create a pop-out effect */
+}
+
+/* Responsive design: make the blocks full width on smaller screens */
+@media (max-width: 768px) {
   .experience-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    gap: 0; /* No gap between the blocks */
+    flex-direction: column; /* Stack blocks vertically */
+    align-items: center;
   }
-  
-  /* Each block takes up 50% of the width */
+
   .experience-block {
-    width: 48%;
-    background-color: var(--mint-green); /* Keep mint green theme */
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    color: var(--black);
-    text-align: left;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    width: 90%; /* Full width for blocks on small screens */
+    margin-bottom: 2rem;
   }
-  
-  .experience-title {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: var(--dark-green);
-    margin-bottom: 1rem;
-  }
-  
-  .experience-description {
-    font-size: 1.2rem;
-    line-height: 1.6;
-  }
-  
-  /* Hover Effect */
-  .experience-block:hover {
-    transform: translateY(-10px) scale(1.05); /* Slight upward movement and scaling */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Increase the shadow to create a pop-out effect */
-  }
-  
-  /* Responsive design: make the blocks full width on smaller screens */
-  @media (max-width: 768px) {
-    .experience-container {
-      flex-direction: column; /* Stack blocks vertically */
-      align-items: center;
-    }
-  
-    .experience-block {
-      width: 90%; /* Full width for blocks on small screens */
-      margin-bottom: 2rem;
-    }
-  }
+}
+
+.section {
+  display: flex;
+  flex-direction: column; /* Stack blocks vertically */
+  align-items: center; /* Center blocks horizontally */
+  gap: 20px; /* Space between blocks */
+  padding: 20px;
+}
+
+.section .block {
+  width: 80vw; /* Fixed width: 80% of the viewport */
+  max-width: 1200px; /* Optional: Limit the width for very wide screens */
+  padding: 20px; /* Add padding inside the blocks */
+  background-color: #000; /* Black background */
+  color: #00ff00; /* Neon green text */
+  text-shadow: 0 0 8px #00ff00; /* Glowing text effect */
+  border: 2px solid #00ff00; /* Neon green border */
+  box-shadow: 0 4px 10px rgba(0, 255, 0, 0.5); /* Neon green shadow */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 1.2rem; /* Adjusted font size */
+  box-sizing: border-box; /* Ensure padding doesn't affect the size */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.section .block:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+  box-shadow: 0 8px 20px rgba(0, 255, 0, 0.7); /* Enhance shadow on hover */
+}
   
