@@ -1,0 +1,26 @@
+.certificate-name {
+    font-size: 1.8rem;
+    color: #00ff00;
+    margin-bottom: 0.5rem;
+}
+
+.certificate-company {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 0.3rem;
+}
+
+.certificate-year {
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+
+.certificate-image {
+    width: 70%;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 auto 1rem auto;  /* This will center it horizontally */
+    display: block;  /* Ensure it's treated as a block element for centering */
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+  }
+  
