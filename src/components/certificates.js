@@ -2,6 +2,7 @@ import React from 'react';
 import '../assets/styles/certificates.css';
 import '../App.css';
 import devops from '../assets/images/devops_cert.jpg'
+import cybersec from '../assets/images/cybersec_cert.jpg'
 
 const Certificates = () => {
   const certificates = [
@@ -9,7 +10,7 @@ const Certificates = () => {
       name: "Cybersecurity",
       company: "Google",
       year: "2025",
-      image: ''
+      image: cybersec
     },
     {
       name: "DevOps and Software Engineering",
