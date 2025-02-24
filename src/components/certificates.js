@@ -23,14 +23,16 @@ const Certificates = () => {
   return (
     <section id="certificates">
       <h2 className="heading">certificates</h2>
-      {certificates.map((cert, index) => (
-        <div className="block" key={index}>
-          <h2 className="certificate-name">{cert.name}</h2>
-          <h3 className="certificate-company">{cert.company}</h3>
-          <p className="certificate-year">{cert.year}</p>
-          <img src={cert.image} alt={`${cert.name} certificate`} className="certificate-image"/>
-        </div>
-      ))}
+      <div className="block-section">
+        {certificates.map((cert, index) => (
+          <div className="block" key={index}>
+            <h2 className="certificate-name">{cert.name}</h2>
+            <h3 className="certificate-company">{cert.company}</h3>
+            <p className="certificate-year">{cert.year}</p>
+            <img src={cert.image} alt={`${cert.name} certificate`} className="certificate-image"/>
+          </div>
+        ))}
+      </div>
     </section>
   );
 };

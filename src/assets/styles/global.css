@@ -44,25 +44,31 @@ a:hover {
   box-sizing: border-box;
 }
 
-/* Section Styling */
-section {
-  padding: 3rem;
+.block-section {
+  padding: 2rem;
+  display: flex;
   border-radius: 10px;
-  margin: 2rem auto;
+  margin: 1rem auto;
   width: 90%;
-  max-width: 1200px;
+  gap: 1rem;
 }
-
-/* Card/Block Styling */
 .block {
-  background-color: rgba(0, 0, 0, 0.9); /* Darker transparent background for cards */
-  border: 2px solid #00ff00; /* Neon green border */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  border: 2px solid #00ff00;
   padding: 2rem;
   border-radius: 10px;
-  color: #00ff00; /* Neon green text */
+  color: #00ff00;
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
+
+@media (max-width: 768px) {
+  .block {
+      width: 100%; /* Full width on smaller screens */
+  }
+}
+
 
 /* Card Hover Effect */
 .block:hover {
