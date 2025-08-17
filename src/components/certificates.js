@@ -23,7 +23,7 @@ const Certificates = () => {
   return (
     <section id="certificates">
       <h2 className="heading">certificates</h2>
-      <div className="block-section">
+      <div className="certificate-blocks">
         {certificates.map((cert, index) => (
           <div className="block" key={index}>
             <h2 className="certificate-name">{cert.name}</h2>

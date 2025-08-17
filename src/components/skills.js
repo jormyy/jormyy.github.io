@@ -5,12 +5,15 @@ import '../App.css';
 const Skills = () => (
   <section id="skills">
     <h2 className="heading">skills</h2>
-    <div className="block-section">
+    <div className="skill-blocks">
       <div className="block">
-        <h2>skill1</h2>
+        <h2>Programming Languages</h2>
       </div>
       <div className="block">
-        <h2>skill2</h2>
+        <h2>Technologies & Tools</h2>
+      </div>
+      <div className="block">
+        <h2>Development Practices</h2>
       </div>
     </div>
   </section>

@@ -2,7 +2,7 @@ import React from 'react';
 import '../assets/styles/home.css';
 import '../App.css';
 
-const Home = ({ onScrollToAboutMe }) => {
+const Home = () => {
   return (
     <section id="home" className="home-section">
       <h1>Welcome to My Portfolio</h1>

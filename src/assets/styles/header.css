@@ -7,7 +7,7 @@
   position: fixed;  /* Keeps the header fixed on top */
   top: 0;
   left: 0;
-  width: 100%;
+  width: 94%;
   background-color: rgba(0, 0, 0, 0.8);  /* Slight transparency for hacker theme */
   z-index: 1000;
 }
