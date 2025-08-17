@@ -12,9 +12,11 @@ const Header = () => {
       
       sections.forEach((section) => {
         const element = document.getElementById(section);
-        const rect = element.getBoundingClientRect();
-        if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
-          currentSection = section;
+        if (element) {
+          const rect = element.getBoundingClientRect();
+          if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
+            currentSection = section;
+          }
         }
       });
 
@@ -27,6 +29,18 @@ const Header = () => {
     };
   }, []);
 
+  const handleSmoothScroll = (e, targetId) => {
+    e.preventDefault();
+    
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+  };
+
   return (
     <header className="apple-style-header">
       <div className="logo">
@@ -35,25 +49,67 @@ const Header = () => {
       <nav>
         <ul className="nav-links">
           <li>
-            <a href="#home" className={activeSection === 'home' ? 'active' : ''}>Home</a>
+            <a 
+              href="#home" 
+              className={activeSection === 'home' ? 'active' : ''}
+              onClick={(e) => handleSmoothScroll(e, 'home')}
+            >
+              Home
+            </a>
           </li>
           <li>
-            <a href="#about-me" className={activeSection === 'about-me' ? 'active' : ''}>About Me</a>
+            <a 
+              href="#about-me" 
+              className={activeSection === 'about-me' ? 'active' : ''}
+              onClick={(e) => handleSmoothScroll(e, 'about-me')}
+            >
+              About Me
+            </a>
           </li>
           <li>
-            <a href="#experience" className={activeSection === 'experience' ? 'active' : ''}>Experience</a>
+            <a 
+              href="#experience" 
+              className={activeSection === 'experience' ? 'active' : ''}
+              onClick={(e) => handleSmoothScroll(e, 'experience')}
+            >
+              Experience
+            </a>
           </li>
           <li>
-            <a href="#projects" className={activeSection === 'projects' ? 'active' : ''}>Projects</a>
+            <a 
+              href="#projects" 
+              className={activeSection === 'projects' ? 'active' : ''}
+              onClick={(e) => handleSmoothScroll(e, 'projects')}
+            >
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#certificates" className={activeSection === 'certificates' ? 'active' : ''}>Certificates</a>
+            <a 
+              href="#certificates" 
+              className={activeSection === 'certificates' ? 'active' : ''}
+              onClick={(e) => handleSmoothScroll(e, 'certificates')}
+            >
+              Certificates
+            </a>
           </li>
           <li>
-            <a href="#skills" className={activeSection === 'skills' ? 'active' : ''}>Skills</a>
+            <a 
+              href="#skills" 
+              className={activeSection === 'skills' ? 'active' : ''}
+              onClick={(e) => handleSmoothScroll(e, 'skills')}
+            >
+              Skills
+            </a>
           </li>
           <li>
-            <a href="#contact-me" className={activeSection === 'contact-me' ? 'active' : ''}>Contact Me</a>
+            <a 
+              href="#contact-me" 
+              className={activeSection === 'contact-me' ? 'active' : ''}
+              onClick={(e) => handleSmoothScroll(e, 'contact-me')}
+            >
+              Contact Me
+            </a>
           </li>
         </ul>
       </nav>

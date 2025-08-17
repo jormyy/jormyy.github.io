@@ -6,7 +6,7 @@ const Home = ({ onScrollToAboutMe }) => {
   return (
     <section id="home" className="home-section">
       <h1>Welcome to My Portfolio</h1>
-      <p>Explore my world of cybersecurity and technology.</p>
+      <p>Explore my world of technology.</p>
     </section>
   );
 };

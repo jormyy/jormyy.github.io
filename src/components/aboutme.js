@@ -7,7 +7,7 @@ const AboutMe = () => {
     <section id="about-me" className="about-section">
       <h1>About Me</h1>
       <p>
-        Cybersecurity
+        Software Engineer. UC Davis.
       </p>
     </section>
   );
