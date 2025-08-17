@@ -13,7 +13,7 @@ const Certificates = () => {
       image: cybersec
     },
     {
-      name: "DevOps and Software Engineering",
+      name: "DevOps",
       company: "IBM",
       year: "2023",
       image: devops

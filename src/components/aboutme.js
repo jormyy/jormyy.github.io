@@ -5,7 +5,7 @@ import '../App.css';
 const AboutMe = () => {
   return (
     <section id="about-me" className="about-section">
-      <h1>About Me</h1>
+      <h1 className="heading">About Me</h1>
       <p>
         Software Engineer. UC Davis.
       </p>
