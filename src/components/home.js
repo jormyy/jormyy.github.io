@@ -3,12 +3,12 @@ import '../assets/styles/home.css';
 import '../App.css';
 
 const Home = () => {
-  return (
-    <section id="home" className="home-section">
-      <h1 className="heading">Welcome to My Portfolio</h1>
-      <p>Explore my world of technology.</p>
-    </section>
-  );
+    return (
+        <section id="home" className="home-section">
+            <h1 className="heading">Welcome to My Portfolio</h1>
+            <p>Explore my world of technology.</p>
+        </section>
+    );
 };
 
 export default Home;
