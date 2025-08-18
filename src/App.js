@@ -11,21 +11,21 @@ import Footer from './components/footer';
 import './assets/styles/global.css';
 
 const App = () => {
-  return (
-    <div>
-      <Header />
-      <main>
-        <Home />
-        <AboutMe />
-        <Experience />
-        <Projects />
-        <Certificates />
-        <Skills />
-        <ContactMe />
-      </main>
-      <Footer />
-    </div>
-  );
+    return (
+        <div>
+            <Header />
+            <main>
+                <Home />
+                <AboutMe />
+                <Experience />
+                <Projects />
+                <Certificates />
+                <Skills />
+                <ContactMe />
+            </main>
+            <Footer />
+        </div>
+    );
 };
 
 export default App;
