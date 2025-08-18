@@ -39,7 +39,7 @@ const ContactMe = () => {
                         <img src={contact.image} alt={contact.name} className="contact-icon"/>
                         <h2>{contact.name}</h2>
                         <div className="contact-info">{contact.info}</div>
-                        <a href={contact.link} className="contact-link">{contact.msg}</a>
+                        <a href={contact.link} className="contact-link" target="_blank">{contact.msg}</a>
                     </div>
                 ))}
             </div>

@@ -16,7 +16,7 @@ const Projects = () => (
                     <span className="skill-tag">REST API</span>
                     <span className="skill-tag">OAuth</span>
                 </div>
-                <a href="https://github.com/jormyy/loyal-listener" className="github-btn">view source</a>
+                <a href="https://github.com/jormyy/loyal-listener" className="github-btn" target="_blank">view source</a>
             </div>
             <div className="block">
                 <h2>Quick Draw Reimplementation</h2>
@@ -28,7 +28,7 @@ const Projects = () => (
                     <span className="skill-tag">Neural Network</span>
                     <span className="skill-tag">Git</span>
                 </div>
-                <a href="https://github.com/jormyy/ecs171" className="github-btn">view source</a>
+                <a href="https://github.com/jormyy/ecs171" className="github-btn" target="_blank">view source</a>
             </div>
             <div className="block">
                 <h2>BIL</h2>
@@ -40,7 +40,7 @@ const Projects = () => (
                     <span className="skill-tag">I/O Handling</span>
                     <span className="skill-tag">Automation</span>
                 </div>
-                <a href="https://github.com/jormyy/BIL" className="github-btn">view source</a>
+                <a href="https://github.com/jormyy/BIL" className="github-btn" target="_blank">view source</a>
             </div>
             <div className="block">
                 <h2>Aggie Platter</h2>
@@ -52,7 +52,7 @@ const Projects = () => (
                     <span className="skill-tag">Python</span>
                     <span className="skill-tag">Data Processing</span>
                 </div>
-                <a href="https://github.com/jormyy/aggie-platter" className="github-btn">view source</a>
+                <a href="https://github.com/jormyy/aggie-platter" className="github-btn" target="_blank">view source</a>
             </div>
         </div>
     </section>
