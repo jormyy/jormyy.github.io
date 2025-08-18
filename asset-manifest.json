@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.873f5b88.css",
-    "main.js": "/static/js/main.9467fee8.js",
+    "main.css": "/static/css/main.51d11a8a.css",
+    "main.js": "/static/js/main.90b7e2d1.js",
     "static/js/488.9561f9b8.chunk.js": "/static/js/488.9561f9b8.chunk.js",
     "static/media/devops_cert.jpg": "/static/media/devops_cert.e7abcd2ef9ae515b6145.jpg",
     "static/media/cybersec_cert.jpg": "/static/media/cybersec_cert.950033bdb57b6ad7d0c8.jpg",
@@ -9,12 +9,12 @@
     "static/media/github.svg": "/static/media/github.255db585f8a0eb28a1e4deb91bde207d.svg",
     "index.html": "/index.html",
     "static/media/gmail.svg": "/static/media/gmail.f12319849e28413aaa94f1c11fd35eef.svg",
-    "main.873f5b88.css.map": "/static/css/main.873f5b88.css.map",
-    "main.9467fee8.js.map": "/static/js/main.9467fee8.js.map",
+    "main.51d11a8a.css.map": "/static/css/main.51d11a8a.css.map",
+    "main.90b7e2d1.js.map": "/static/js/main.90b7e2d1.js.map",
     "488.9561f9b8.chunk.js.map": "/static/js/488.9561f9b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.873f5b88.css",
-    "static/js/main.9467fee8.js"
+    "static/css/main.51d11a8a.css",
+    "static/js/main.90b7e2d1.js"
   ]
 }
