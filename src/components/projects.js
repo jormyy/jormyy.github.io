@@ -11,7 +11,7 @@ const Projects = () => {
             link: "https://github.com/jormyy/loyal-listener"
         },
         {
-            name: "quick draw reimplementation",
+            name: "quick draw clone",
             desc: "Machine Learning model based on Google's Quick, Draw! game to recognize drawings.",
             skills: ["machine learning", "tensorflow", "rest api", "neural network", "git"],
             link: "https://github.com/jormyy/ecs171"
@@ -43,7 +43,7 @@ const Projects = () => {
                                 <span className="skill-tag">{skill}</span>
                             ))}
                         </div>
-                        <a href={proj.link} className="github-btn" target="_blank">view source</a>
+                        <a href={proj.link} className="github-btn" target="_blank" rel="noreferrer">view source</a>
                     </div>
                 ))}
             </div>

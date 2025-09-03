@@ -31,7 +31,7 @@ const ContactMe = () => {
     ];
     
     return (
-        <section id="contact-me">
+        <section id="contact-me" className="contact-section">
             <h2 className="heading">contact me</h2>
             <div className="contact-blocks">
                 {contacts.map((contact, index) => (
@@ -39,7 +39,7 @@ const ContactMe = () => {
                         <img src={contact.image} alt={contact.name} className="contact-icon"/>
                         <h2>{contact.name}</h2>
                         <div className="contact-info">{contact.info}</div>
-                        <a href={contact.link} className="contact-link" target="_blank">{contact.msg}</a>
+                        <a href={contact.link} className="contact-link" target="_blank" rel="noreferrer">{contact.msg}</a>
                     </div>
                 ))}
             </div>

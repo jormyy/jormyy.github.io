@@ -31,7 +31,7 @@ const Certificates = () => {
     };
 
     return (
-        <section id="certificates">
+        <section id="certificates" className="certificates-section">
             <h2 className="heading">certificates</h2>
             <div className="certificate-blocks">
                 {certificates.map((cert, index) => (

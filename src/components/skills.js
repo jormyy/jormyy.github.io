@@ -20,10 +20,10 @@ const Skills = () => {
     ]
 
     return (
-        <section id="skills">
+        <section id="skills" className="skills-section">
             <h2 className="heading">skills</h2>
             <div className="skill-blocks">
-                {skills.map((skill, index) => (
+                {skills.map((skill) => (
                     <div className="block" key="index">
                         <h2>{skill.section}</h2>
                         <div className="skills-container">

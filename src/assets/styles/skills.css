@@ -1,7 +1,11 @@
+.skills-section {
+    padding-top: 100px;
+}
+
 .skill-blocks {
     padding: 2rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     border-radius: 10px;
     margin: 1rem auto;
     width: 80%;
