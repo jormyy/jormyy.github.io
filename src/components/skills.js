@@ -9,9 +9,13 @@ const Skills = () => {
             skill_list: ["python", "javascript", "java", "c++", "c#", "go", "rust", "sql", "r", "swift", "typescript", "bash", "html", "css"]
         },
         {
-            section: "technologies",
-            skill_list: ["react", "node.js", "express", "git", "ci/cd", "docker", "kubernetes", "aws", "gcp", "azure", "postgresql", "mongodb",
-                "redis", "graphql", "selenium", "pytorch", "tensorflow", "opencv", "linux", "ubuntu", "debian", "command line"]
+            section: "frameworks/libraries",
+            skill_list: ["react", "spring", "node.js", "express", "pytorch", "tensorflow", "opencv", "graphql", "selenium"]
+        },
+        {
+            section: "infrastructure/tools",
+            skill_list: ["aws", "gcp", "azure", "docker", "kubernetes", "git", "ci/cd", "postgresql", "mongodb", "redis",
+                "linux", "ubuntu", "debian", "command line"]
         },
         {
             section: "practices",
