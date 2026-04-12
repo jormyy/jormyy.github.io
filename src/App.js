@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/header';
-import Home from './components/home'
+import Home from './components/home';
 import AboutMe from './components/aboutme';
 import Experience from './components/experience';
 import Projects from './components/projects';

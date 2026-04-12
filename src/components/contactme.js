@@ -1,9 +1,9 @@
 import React from 'react';
 import '../assets/styles/contactme.css';
 import '../App.css';
-import gmail from '../assets/images/gmail.svg'
-import github from '../assets/images/github.svg'
-import linkedin from '../assets/images/linkedin.svg'
+import gmail from '../assets/images/gmail.svg';
+import github from '../assets/images/github.svg';
+import linkedin from '../assets/images/linkedin.svg';
 
 const ContactMe = () => {
     const contacts = [

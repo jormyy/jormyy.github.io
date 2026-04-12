@@ -1,8 +1,8 @@
-import { React, useState } from 'react';
+import React, { useState } from 'react';
 import '../assets/styles/certificates.css';
 import '../App.css';
-import devops from '../assets/images/devops_cert.jpg'
-import cybersec from '../assets/images/cybersec_cert.jpg'
+import devops from '../assets/images/devops_cert.jpg';
+import cybersec from '../assets/images/cybersec_cert.jpg';
 
 const Certificates = () => {
     const [selectedImage, setSelectedImage] = useState(null);

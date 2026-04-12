@@ -21,18 +21,18 @@ const Skills = () => {
             section: "practices",
             skill_list: ["agile", "test-driven development (tdd)", "object-oriented design (ood)", "microservices architecture", "rest api"]
         }
-    ]
+    ];
 
     return (
         <section id="skills" className="skills-section">
             <h2 className="heading">skills</h2>
             <div className="skill-blocks">
-                {skills.map((skill) => (
-                    <div className="block" key="index">
+                {skills.map((skill, index) => (
+                    <div className="block" key={index}>
                         <h2>{skill.section}</h2>
                         <div className="skills-container">
-                            {skill.skill_list.map((item) => (
-                                <span className="skill-tag">{item}</span>
+                            {skill.skill_list.map((item, i) => (
+                                <span className="skill-tag" key={i}>{item}</span>
                             ))}
                         </div>
                     </div>

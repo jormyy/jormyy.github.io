@@ -7,28 +7,34 @@ const Projects = () => {
         {
             name: "loyal listener",
             desc: "Web application that creates comprehensive Spotify playlists of an artist's complete discography.",
-            skills: ["react", "flask", "python", "rest api", "oauth"],
             link: "https://github.com/jormyy/loyal-listener"
+        },
+        {
+            name: "ding",
+            desc: "Online multiplater collaborative hand ranking game.",
+            link: "https://github.com/jormyy/ding"
+        },
+        {
+            name: "valence",
+            desc: "Sports streaming site that aims to minimize ads and popups.",
+            link: "https://github.com/jormyy/valence"
         },
         {
             name: "quick draw clone",
             desc: "Machine Learning model based on Google's Quick, Draw! game to recognize drawings.",
-            skills: ["machine learning", "tensorflow", "rest api", "neural network", "git"],
             link: "https://github.com/jormyy/ecs171"
         },
         {
             name: "bil",
             desc: "Speech recognition virtual assistant capable of executing numerous commands.",
-            skills: ["speech recognition", "ai", "python", "i/o handling", "automation"],
             link: "https://github.com/jormyy/BIL"
         },
         {
             name: "aggie platter",
-            desc: "Webscraping tool that tracks nutrition facts at UC Davis dining commons.",
-            skills: ["webscraping", "beautifulsoup", "requests", "python", "data processing"],
+            desc: "CLI Webscraping tool that tracks nutrition facts at UC Davis dining commons.",
             link: "https://github.com/jormyy/aggie-platter"
         }
-    ]
+    ];
 
     return (
         <section id="projects" className="projects-section">
@@ -38,11 +44,6 @@ const Projects = () => {
                     <div className="block" key={index}>
                         <h2>{proj.name}</h2>
                         <p>{proj.desc}</p>
-                        <div className="skills-container">
-                            {proj.skills.map((skill) => (
-                                <span className="skill-tag">{skill}</span>
-                            ))}
-                        </div>
                         <a href={proj.link} className="github-btn" target="_blank" rel="noreferrer">view source</a>
                     </div>
                 ))}
