@@ -7,14 +7,12 @@ const Experience = () => {
             <h2 className="heading">Experience</h2>
             <div className="experience-blocks">
                 <div className="block">
-                    <h2>Software Consultant</h2>
+                    <h2>Software Engineer (Contract)</h2>
                     <p>Jun 2025 - Present</p>
                     <ul className="hacker-bullets">
-                        <li>Established a software consultancy providing full-stack development and digital transformation services for SMEs.</li>
-                        <li>Engineered high-performance migrations from outdated legacy systems to modern React architectures; optimized cloud hosting to eliminate downtime and improve site responsiveness across diverse client portfolios.</li>
-                        <li>Architected and delivered a custom PostgreSQL internal scheduling engine for a healthcare client, automating patient-staff coordination and reclaiming 7.5 hours of weekly administrative overhead.</li>
-                        <li>Executed a targeted technical SEO and localization strategy for underserved demographics, resulting in a 70% growth in patient acquisition within the Korean-speaking market.</li>
-                        <li>Managed the end-to-end project lifecycle, from initial stakeholder requirements gathering and UI/UX prototyping to final deployment and maintenance.</li>
+                        <li>Replaced a legacy website with a React-based system, improving UI/UX while reducing annual hosting costs by over 15x.</li>
+                        <li>Engineered a secure PostgreSQL scheduling system that fully automated patient coordination, eliminating manual booking errors and reclaiming 1.5 hours of staff productivity daily.</li>
+                        <li>Strategized and designed targeted community outreach campaigns for the Korean immigrant community, leveraging cultural insights to increase patient volume by 70% and improve local healthcare access.</li>
                     </ul>
                 </div>
                 <div className="block">
