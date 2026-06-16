@@ -7,7 +7,7 @@ const Experience = () => {
             <h2 className="heading">Experience</h2>
             <div className="experience-blocks">
                 <div className="block">
-                    <h2>Software Engineer (Contract)</h2>
+                    <h2>Software Engineer (Contract) @ Star Dental Group</h2>
                     <p>Jun 2025 - Present</p>
                     <ul className="hacker-bullets">
                         <li>Replaced a legacy website with a React-based system, improving UI/UX while reducing annual hosting costs by over 15x.</li>
